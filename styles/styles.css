@@ -1,0 +1,92 @@
+:root {
+    /*## Colors*/
+    /*### Primary*/
+    /*#### Text*/
+    --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+
+    /*#### Gradient*/
+    /*Background gradient:*/
+    --soft-violet: hsl(273, 75%, 66%);
+    --soft-blue: hsl(240, 73%, 65%);
+
+    /*### Neutral*/
+    /*#### Text*/
+    --very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /*Dividers*/
+    --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+header {
+    height: 120px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--very-dark-desaturated-blue);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#woman {
+    position: relative;
+    bottom: 130px;
+    z-index: 3;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+#woman-shadow {
+    position: relative;
+    top: -200px;
+    margin-left: calc((100% - 240px)/2);
+    z-index: 2;
+    
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    width: 90%;
+}
+
+footer {
+    color: white;
+}
+
+main {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 8% 8% 8%;
+}
