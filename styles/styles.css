@@ -43,21 +43,8 @@ h1 {
     font-size: 2rem;
 }
 
-#woman {
-    position: relative;
-    bottom: 130px;
-    z-index: 3;
-    width: 280px;
-    display: block;
-    margin: 0 auto;
-}
-
-#woman-shadow {
-    position: relative;
-    top: -200px;
-    margin-left: calc((100% - 240px)/2);
-    z-index: 2;
-    
+hr {
+    border-color: var(--light-grayish-blue);
 }
 
 html {
@@ -70,18 +57,27 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-size: 12px;
 }
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
     font-weight: 400;
     color: var(--dark-grayish-blue);
     width: 90%;
 }
 
+.bold {
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
+
 footer {
     color: white;
+}
+
+.hidden {
+    display: none;
 }
 
 main {
@@ -89,4 +85,39 @@ main {
     background-color: white;
     border-radius: 20px;
     padding: 0 8% 8% 8%;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.text-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-text {
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.top-text:hover {
+    color: var(--soft-red);
+    cursor: pointer;
+}
+
+#woman {
+    position: relative;
+    bottom: 120px;
+    width: 260px;
+    margin-left: calc((100% - 260px)/2);
+    z-index: 3;
+}
+
+#woman-shadow {
+    position: relative;
+    top: -200px;
+    margin-left: calc((100% - 240px)/2);
+    z-index: 2;
 }
