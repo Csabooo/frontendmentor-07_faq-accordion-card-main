@@ -10,8 +10,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Csabooo/frontendmentor-07_faq-accordion-card-main)
+- Live Site URL: [GitHub Pages](https://csabooo.github.io/frontendmentor-07_faq-accordion-card-main/)
 
 ## My process
 
